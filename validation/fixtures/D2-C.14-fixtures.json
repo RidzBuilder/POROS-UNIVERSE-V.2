@@ -1,0 +1,16 @@
+{
+  "fixture_version": "0.1",
+  "status": "DRAFT",
+  "fixtures": [
+    {"fixture_id":"F-001","class":"minimal-valid-authorization","expected_outcome":"PASS"},
+    {"fixture_id":"F-002","class":"missing-required-field","expected_outcome":"FAIL"},
+    {"fixture_id":"F-003","class":"invalid-enum","expected_outcome":"FAIL"},
+    {"fixture_id":"F-004","class":"scope-mismatch","expected_outcome":"FAIL"},
+    {"fixture_id":"F-005","class":"illegal-lifecycle-transition","expected_outcome":"FAIL"},
+    {"fixture_id":"F-006","class":"digest-mismatch","expected_outcome":"FAIL"},
+    {"fixture_id":"F-007","class":"valid-digest-unverified-evidence","expected_outcome":"PASS_SCHEMA_NOT_VERIFIED"},
+    {"fixture_id":"F-008","class":"verified-evidence-unassessed","expected_outcome":"PASS_VERIFICATION_NOT_ASSESSED"},
+    {"fixture_id":"F-009","class":"assessment-pass-without-authorization","expected_outcome":"FAIL_SEMANTIC"},
+    {"fixture_id":"F-010","class":"canonicalization-reference-vectors","expected_outcome":"PASS"}
+  ]
+}
