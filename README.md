@@ -1,6 +1,6 @@
 # POROS UNIVERSE V.2
 
-**Repository status:** BOOTSTRAPPED
+**Repository status:** BOOTSTRAPPED / D2-C REVIEW PACKAGE PREPARED
 **Baseline status:** DRAFT / NOT LOCKED
 **D2-4 identity model:** DEFERRED
 **Production execution:** DISABLED
@@ -13,16 +13,17 @@ This repository is the canonical GitHub workspace for POROS UNIVERSE V.2. It pre
 ## Current Gate
 
 - Gate 0 — Target Repository Check: PASS
-- Gate 1 — Repository Bootstrap: IN PROGRESS
-- Latest specification gate: D2-C.12 — Schema Normalization & Machine-Readable Draft Package v0.1
+- Gate 1 — Repository Bootstrap: PASS
+- Gate 2 — Canonical Baseline Ingestion: COMPLETE
+- Latest specification gate: D2-C.16 — Consolidated D2-C Review Package v0.1
 - D2-C.11: Drafted / Not Locked
 - D2-C.12: Drafted / Not Locked
-- D2-C.13: Pending
-- D2-C.14: Pending
-- D2-C.15: Pending
-- D2-C.16: Pending
-- D2-D: Pending
-- D2-E: Pending
+- D2-C.13: Drafted / Consistency-checked / Not Locked
+- D2-C.14: Drafted / Fixture JSON validated / Not Locked
+- D2-C.15: Drafted / Migration matrix prepared / Not Locked
+- D2-C.16: Review package prepared / Not Approved / Not Locked
+- D2-D: NOT STARTED — Independent Review
+- D2-E: NOT STARTED — Governor Decision Gate
 
 ## Governance Boundaries
 
