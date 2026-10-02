@@ -26,6 +26,9 @@ Input object member order is intentionally non-canonical:
 Expected canonical JSON:
 `{"a":1,"active":true,"b":2,"note":null}`
 
+Expected SHA-256:
+`f40093d6ea164a6666fe81bdc0bdede0fa466ef3962060209b3c8f1fe14fd902`
+
 ### V-002 — nested ordering
 Input:
 `{"z":{"b":2,"a":1},"a":[{"d":4,"c":3},1]}`
@@ -33,12 +36,18 @@ Input:
 Expected canonical JSON:
 `{"a":[{"c":3,"d":4},1],"z":{"a":1,"b":2}}`
 
+Expected SHA-256:
+`0fc338327f5e56bfca89d2658acf19c2adb3e82404d56c5ad5523b025dbf8c7e`
+
 ### V-003 — array order preservation
 Input:
 `{"items":["b","a",{"y":2,"x":1}]}`
 
 Expected canonical JSON:
 `{"items":["b","a",{"x":1,"y":2}]}`
+
+Expected SHA-256:
+`c4e3581ef0efe2f01841c6706ead6a4ab6197815d26de7cf428b28beb8a9792b`
 Array element order MUST remain b,a,...
 
 ### V-004 — insignificant whitespace
