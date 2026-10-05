@@ -1,6 +1,6 @@
 # D2-C.16 — Consolidated D2-C Review Package v0.1
 
-**Status:** REVIEW PACKAGE / NOT APPROVED / NOT LOCKED
+**Status:** REVIEW PACKAGE / MATURATION PHASE / NOT APPROVED / NOT LOCKED
 
 ## Included specifications
 - D2-C.11 Formal Schema Validation & Canonicalization
@@ -20,11 +20,15 @@ This package is prepared for independent review. Preparation does not constitute
 - D2-C.14: DRAFT
 - D2-C.15: DRAFT
 - D2-C.16: REVIEW PACKAGE READY
-- D2-D independent review: NOT STARTED
-- D2-E Governor decision: NOT STARTED
+- D2-D independent review: DEFERRED UNTIL MATURITY / PUBLICATION READINESS
+- D2-E Governor decision: DEFERRED UNTIL PUBLICATION GOVERNANCE GATE
 - D2-4 identity model: DEFERRED
 - production execution: DISABLED
 - production credentials: DISALLOWED
+
+## Maturation posture
+
+D2-D is intentionally deferred during private development. Internal review, implementation testing, functional validation, and iterative refinement may proceed without being represented as independent review. Public-release readiness is a separate gate.
 
 ## Explicit non-claims
 No experiment is claimed executed. No evidence is claimed verified. No assessment is claimed PASS. No identity model is selected. No baseline is locked.
