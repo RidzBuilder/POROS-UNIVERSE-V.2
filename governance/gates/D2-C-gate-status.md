@@ -9,7 +9,7 @@
 | D2-C.14 | DRAFT | Conformance fixtures/matrix prepared |
 | D2-C.15 | DRAFT | Compatibility/migration specification prepared |
 | D2-C.16 | READY FOR INDEPENDENT REVIEW | Consolidated package prepared |
-| D2-D | NOT STARTED | Independent review has not occurred |
-| D2-E | NOT STARTED | Governor decision has not occurred |
+| D2-D | DEFERRED | Independent review intentionally deferred until maturity / publication readiness |
+| D2-E | DEFERRED | Governor decision deferred until publication governance gate |
 
 **Global controls:** D2-4 DEFERRED; production execution DISABLED; production credentials DISALLOWED; baseline LOCK NOT AUTHORIZED.
