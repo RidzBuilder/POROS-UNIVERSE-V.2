@@ -2,6 +2,8 @@
 
 **Repository status:** BOOTSTRAPPED / D2-C REVIEW PACKAGE PREPARED
 **Baseline status:** DRAFT / NOT LOCKED
+**Development phase:** PRIVATE DEVELOPMENT & MATURATION
+**Publication status:** NOT PUBLIC-RELEASE READY
 **D2-4 identity model:** DEFERRED
 **Production execution:** DISABLED
 **Production credentials:** DISALLOWED
@@ -22,8 +24,8 @@ This repository is the canonical GitHub workspace for POROS UNIVERSE V.2. It pre
 - D2-C.14: Drafted / Fixture JSON validated / Not Locked
 - D2-C.15: Drafted / Migration matrix prepared / Not Locked
 - D2-C.16: Review package prepared / Not Approved / Not Locked
-- D2-D: NOT STARTED — Independent Review
-- D2-E: NOT STARTED — Governor Decision Gate
+- D2-D: DEFERRED — Independent Review after maturity / publication readiness
+- D2-E: DEFERRED — Publication governance gate
 
 ## Governance Boundaries
 
@@ -37,6 +39,10 @@ This repository is the canonical GitHub workspace for POROS UNIVERSE V.2. It pre
 8. Migration success does not imply semantic equivalence.
 9. Remediation completion does not imply finding closure without verification.
 10. A decision package ready for Governor review is not an approved decision.
+
+## Development Phase
+
+The current project phase is private development and maturation. Internal implementation, integration, testing, validation, and refinement are permitted within the declared safety boundaries. Independent review is intentionally deferred until the system is mature and publication-ready.
 
 ## Repository State
 
